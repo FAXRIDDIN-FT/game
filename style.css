@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nabar {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    position: relative;
+    background-image: url(./img/bg-nav.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nabar__colection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.nabar__colection:hover {
+    cursor: pointer;
+
+}
+
+.nabar__title:hover {
+    color: rgb(250, 197, 37);
+}
+
+.nabar__text {
+    gap: 30px;
+}
+
+.nabar__img {
+    position: absolute;
+    right: 20%;
+}
+
+.nabar__btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 30px;
+    background: rgb(89, 185, 255);
+    border: 1px solid #ddd;
+    color: #fff;
+    margin-right: 100px;
+
+}
+
+.main {
+
+    height: 900px;
+    background-image: url(./img/bg-nav.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 209px 60px;
+    display: flex;
+    width: 660px;
+    height: 500px;
+    position: relative;
+}
+
+.hero__text img {
+    position: absolute;
+    top: 25%;
+
+}
+
+.hero__text h4 {
+    padding-left: 15px;
+    color: rgb(89, 185, 255);
+    margin-bottom: 26px;
+    font-family: "Orbitron", serif;
+}
+
+.hero__text h2 {
+    font-family: "Orbitron", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    text-align: left;
+    color: #fff;
+    font-family: Orbitron;
+
+}
+
+.hero__text p {
+    max-width: 400px;
+    padding-bottom: 20px;
+    color: #ddd;
+    font-family: "Orbitron", serif;
+}
+
+.hero__text button {
+    width: 200px;
+    height: 70px;
+    border: 1px solid #ddd;
+    color: #ddd;
+    background: black;
+
+}
+
+.hero__text button:hover {
+    background: rgb(89, 185, 255);
+    cursor: pointer;
+}
+
+.hero__img {
+    margin-left: 150%;
+}
+
+.canpaniy {
+    width: 100%;
+    height: 542px;
+    background: rgb(250, 197, 37);
+    margin-top: 400px;
+    padding: 130px 110px;
+}
+
+.center__canpaniy h2 {
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    color: #222730;
+    font-family: "Orbitron", serif;
+}
+
+.center__canpaniy p {
+    text-align: center;
+    color: #555555;
+    font-family: "Orbitron", serif;
+}
+
+.canpaniy__img {
+    margin-top: 44px;
+}
+
+.cantrol {
+    padding: 120px 60px;
+    height: 1072px;
+    text-align: center;
+    gap: 11.5px;
+    position: relative;
+    background-image: url(./img/bpc.svg);
+}
+
+.cantrol img {
+    position: relative;
+    position: absolute;
+    top: 11%;
+    right: 55.5%;
+}
+
+.cantrol h3 {
+    font-family: "Orbitron", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(89, 185, 255);
+}
+
+.cantrol h2 {
+    font-family: "Orbitron", serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    color: #fff;
+}
+
+.cantrol p {
+    font-family: "Orbitron", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 20px;
+    color: #ffffff75;
+}
+
+.center__card {
+    width: 1320px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    gap: 30px;
+}
+
+.cantrol__card {
+    width: 642.46px;
+    height: 212px;
+    position: relative;
+    padding: 35px;
+    background: #55555554;
+}
+
+.cantrol__card img {
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
+.cantrol__card h2 {
+    font-family: "Orbitron", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+
+}
+
+.game {
+    width: 100%;
+    height: 721px;
+    padding: 60px 86px;
+    background: #000000;
+    display: flex;
+}
+
+.center__game {
+    width: 1270px;
+    height: 550px;
+    position: relative;
+    bottom: 20px;
+}
+
+.game__text {
+    width: 732.66px;
+    height: 474px;
+    padding: 70px 20px;
+
+}
+
+.game__text h3 {
+    font-family: "Orbitron", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #57B8FF;
+}
+
+.game__text h2 {
+    font-family: "Orbitron", serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    color: #fff;
+}
+
+.game__text p {
+    font-family: "Orbitron", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #DFDFDFCC;
+    max-width: 500px;
+
+}
+
+.game__text button {
+    width: 203px;
+    height: 70px;
+    margin-top: 19px;
+    background: #57B8FF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+
+.game__img {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.start {
+    display: flex;
+
+}
+
+.fps {
+    width: 480px;
+    height: 732px;
+    background-image: url(./img/001.svg);
+    padding-top: 20%;
+    padding-left: 12%;
+    position: relative;
+}
+
+.fps p {
+    font-family: "Orbitron", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    position: absolute;
+    left: 120px;
+    color: #ddd;
+}
+
+.fps:nth-child(2) {
+    background-image: url(./img/002.svg);
+}
+
+.fps:nth-child(3) {
+    background-image: url(./img/003.svg);
+}
+
+.center__jostik {
+    background: #000000;
+    display: flex;
+    padding: 25px 60px;
+    position: relative;
+}
+
+.jostik {
+    width: 1320px;
+    height: 962px;
+
+
+}
+
+.jostik__title {
+    width: 100%;
+    height: 196px;
+    position: relative;
+}
+
+.jostik__title h3 {
+    font-family: "Orbitron", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #57B8FF;
+
+}
+
+.jostik__title h2 {
+    font-family: "Orbitron", serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    color: #fff;
+
+}
+
+.jostik__title button {
+    width: 175px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #57B8FF;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    font-family: Orbitron;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.gta {
+    width: 648px;
+    height: 702px;
+
+}
+
+.gta h3 {
+    font-family: "Orbitron", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #57B8FF;
+
+}
+
+.gta h2 {
+    font-family: "Orbitron", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #fff;
+
+}
+
+.player {
+    width: 1320px;
+    height: 702px;
+    display: flex;
+
+}
+
+.play {
+    width: 312px;
+    height: 321px;
+
+}
+
+.play h2 {
+    font-family: "Orbitron", serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #fff;
+}
+
+.play h3 {
+    font-family: "Orbitron", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #57B8FF;
+}
+
+.devit {
+    width: 648px;
+    height: 682px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 5%;
+    top: 23%;
+}
+
+.foot {
+    width: 847px;
+    height: 423px;
+
+}
+
+.footer {
+    width: 1440px;
+    height: 683px;
+    background-image: url(./img/follow\ mali\ li.svg);
+    padding: 130px 296.5px;
+
+}
+
+.foot h2 {
+    font-family: "Orbitron", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 82px;
+    text-align: center;
+}
+
+.foot p {
+    font-family: "Orbitron", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+
+}
+
+.foot input {
+    width: 445px;
+    height: 70px;
+    margin-left: 90px;
+    margin-top: 50px;
+    padding: 25px;
+    border: none;
+    outline: none;
+
+
+}
+
+.foot button {
+    width: 221px;
+    height: 70px;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    background: #57B8FF;
+    color: #fff;
+    border: none;
+
+
+}
